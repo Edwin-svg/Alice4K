@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Viga&display=swap');
+
+body{
+  background-image: url(img/kamar.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+
+.container{
+  border-radius: 10px;
+  position: absolute;
+  padding: 30px;
+  width: 400px;
+  height: 450px;
+  align-items: center;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container button{
+  margin-top: 17px;
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.judul{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 17px;
+  font-family: 'Viga', sans-serif;
+}
+
+.test{
+  margin-left: 140px;
+}
+
+.riwayat{
+  text-decoration: none;
+}
